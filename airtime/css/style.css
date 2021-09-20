@@ -1,0 +1,108 @@
+html{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: #8d24a3;
+}
+
+hr {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.wrapper{
+    
+display: block;
+    
+max-width: 484px;
+    
+margin: auto;
+    
+background-color: orange;
+}
+
+.logo img {
+    max-width: 110px;
+}
+
+.logo {
+    padding: 5px;
+    float: left;
+}
+
+.user {
+    float: right;
+    padding: 15px;
+}
+
+.user span {
+    color: #00ffd0;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.guide {
+    background: #8d24a3;
+    margin: 15px;
+    padding: 15px;
+    color: white;
+    font-size: 14px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.options {
+    width: 31%;
+    padding: 10px 5px;
+    background: #8d24a3;
+    border-radius: 14px;
+    color: white;
+    text-align: center;
+    display: inline-block;
+    margin-left: 1%;
+    margin-top: 10px;
+    margin-bottom: 40px;
+}
+
+.options button {
+    width: 100%;
+}
+
+img.icon {
+    width: 70px;
+    height: 70px;
+}
+
+span.price {
+    font-size: 13px;
+    color: orange;
+}
+
+.banner img {width: 100%;}
+
+.banner {
+    max-width: 484px;
+}
+
+div.package {
+    display: inline-block;
+    width: 49%;
+    border: 1px solid #e6e6e6;
+    border-radius: 10px;
+    text-align: center;
+    padding: 8px 8px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+div.package a{
+    text-decoration: none;
+    color: black;
+}
+
+
+.reduce{
+    font-size: 12px;
+}
