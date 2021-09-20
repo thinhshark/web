@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+    
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>FILMHOT</title>
+
+		<link href='https://fonts.googleapis.com/css?family=Parisienne' rel='stylesheet'>
+
+	    <style type="text/css" media="screen">
+	    	body{
+	    		margin: 0;
+	    		padding: 0;
+	    		background: url('bg.jpg') top center no-repeat;
+	    		background-size: cover;
+	    		color: #fff;
+	    		text-align: center;
+	    	}
+
+
+		div#text {
+		    margin-top: 65px;
+		    line-height: 15px;
+		}
+
+		p#price {
+		    bottom: 20px;
+		    position: absolute;
+		    margin: auto;
+		    display: block;
+		    width: 100%;
+		    color: #f0f8ff80;
+		    font-size: 13px;
+		}
+
+		p.slogan {
+		    font-style: italic;
+		}
+
+		p.package {
+		    font-size: 20px;
+		    text-transform: uppercase;
+		}
+
+		p.title {
+		    font-weight: bold;
+		    font-size: 28px;
+		}
+
+		div#button{
+			position: absolute;
+			bottom: 50px;
+			width: 100%;
+		}
+
+		button{
+			border-radius: 30px;
+			color: #fff;
+			width: 130px;
+			height: 43px;
+			font-size: 14px;
+			margin: 10px;
+			border: none;
+		}
+
+		button.confirm{
+			width: 60%;
+			height: 55px;
+			font-weight: bold;
+			background: #fb5603e0;
+			font-size: 15px;
+		}
+
+		button.cancel{
+			background: #3e3e3e82;
+			color: #585858;
+		}
+
+		.space{
+			height: 140px;
+		}
+	    	
+    	@media screen and (max-width: 375px) {
+    			div#button{
+					bottom: -30px;
+				}
+				p#price {
+		    		bottom: -60px;
+		    	}
+	    	}
+    	}
+	    </style>
+    </head>
+
+    <body>
+    	<div id="text">
+	        <!-- <p class="title">DAILY PACKAGE</p> -->
+	        <!-- <p class="package">DAILY PACKAGE</p> -->
+	        <br>
+	        <p class="slogan">Press confirm to enjoy the service</p>
+	        <div class="space">&nbsp;</div>
+	        <p class="slogan">អ្នកបានចុះឈ្មោះដោយឥតគិតថ្លៃចំនួន 1 ថ្ងៃ។</p>
+	        <p class="slogan">សូមចុច Cancel បើសិនជាអ្នកចង់ចាកចេញពីការជាវនេះ។</p>
+        </div>
+        <p id="price">
+        	កញ្ចប់ប្រចាំថ្ងៃ
+			<br>
+        	10 សេន/ថ្ងៃ
+    	</p>
+
+        <div id="button">
+        	<button class="confirm">យល់ព្រម</button>
+        	<br>
+        	<button class="cancel">បោះបង់</button>
+        </div>
+    </body>
+</html>
