@@ -24,7 +24,7 @@ background-color: orange;
 }
 
 .logo img {
-    max-width: 110px;
+    max-width: 96px;
 }
 
 .logo {
@@ -46,9 +46,9 @@ background-color: orange;
 .guide {
     background: #8d24a3;
     margin: 15px;
-    padding: 15px;
+    padding: 12px;
     color: white;
-    font-size: 14px;
+    font-size: 12px;
     border-radius: 10px;
     text-align: center;
 }
