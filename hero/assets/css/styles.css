@@ -1,0 +1,43 @@
+body {
+  max-width: 480px;
+  margin: auto;
+  color: #fff;
+  text-align: center;
+}
+
+#slogan {
+}
+
+#wrapper {
+  min-height: 550px;
+}
+
+.slogan {
+  font-style: italic;
+}
+
+#text {
+  padding-top: 30px;
+}
+
+#price {
+  line-height: 10px;
+  position: absolute;
+  bottom: 20px;
+  width: 100%;
+  max-width: 480px;
+}
+
+#button {
+  position: absolute;
+  bottom: 93px;
+  width: 100%;
+  max-width: 480px;
+}
+
+#button button {
+  margin: 0 20px 0 20px;
+  width: 120px;
+  border-radius: 15px;
+}
+
