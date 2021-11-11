@@ -1,0 +1,132 @@
+html{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: #f10025;
+}
+
+hr {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.wrapper{
+    
+display: block;
+    
+max-width: 484px;
+    
+margin: auto;
+    
+background-color: #ffa500;
+}
+
+.logo img {
+    max-width: 110px;
+}
+
+.logo {
+    padding: 5px;
+    float: left;
+    margin-left: 5px;
+}
+
+.user {
+    float: right;
+    padding: 15px;
+}
+
+.user span {
+    color: #ef001e;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.guide {
+    background: #f10025;
+    margin: 15px;
+    padding: 15px;
+    color: white;
+    font-size: 14px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.options {
+    width: 42%;
+    padding: 20px 5px;
+    background: aqua;
+    border-radius: 0 25px 0 25px;
+    color: #f2002a;
+    text-align: center;
+    display: inline-block;
+    margin-left: 5%;
+    margin-top: 10px;
+    box-shadow: 3px 3px #5c5c5c;
+}
+
+.options.last {
+    background: floralwhite;
+}
+
+.footer {
+    background: #d30020;
+    margin-top: 30px;
+    padding: 10px 20px;
+    font-size: x-small;
+    color: #fff;
+}
+
+.footer p {
+    margin-bottom: 0;
+}
+
+.options.secondary {
+    background: darkblue;
+}
+
+.options.secondary h6 {
+    color: #fff;
+}
+
+.options h6 {margin-top: 10px;color: black;font-size: 12px;}
+
+.options button {
+    font-size: 12px;
+}
+
+img.icon {max-width: 80px;}
+
+span.price {
+    font-size: 13px;
+    color: orange;
+}
+
+.banner img {width: 100%;}
+
+.banner {
+    max-width: 484px;
+}
+
+div.package {
+    display: inline-block;
+    width: 49%;
+    border: 1px solid #e6e6e6;
+    border-radius: 10px;
+    text-align: center;
+    padding: 8px 8px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+div.package a{
+    text-decoration: none;
+    color: black;
+}
+
+
+.reduce{
+    font-size: 12px;
+}
