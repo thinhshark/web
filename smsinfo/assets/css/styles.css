@@ -1,0 +1,41 @@
+body {
+  min-height: 600px;
+  background: url("../../assets/img/bg.jpg") center / cover;
+}
+
+#logo {
+  width: 110px;
+}
+
+html {
+  padding: 0;
+  max-width: 420px;
+  margin: auto;
+  background: black;
+}
+
+.main-menu a {
+  font-size: 11px;
+  text-align: center;
+  color: white;
+  text-decoration: none;
+}
+
+.footer .col {
+  padding: 18px;
+}
+
+.content {
+  background: #ffffff;
+}
+
+.breadcrumb p {
+  padding-top: 10px;
+  font-weight: bold;
+  border-bottom: solid 1px gray;
+}
+
+.data {
+  min-height: 450px;
+}
+
