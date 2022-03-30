@@ -159,10 +159,11 @@ body {
 
 .footer .col-3 {
   padding: 18px;
+  text-align: center;
 }
 
 .footer img {
-  width: 100%;
+  width: 70%;
 }
 
 .img-thumb img {
