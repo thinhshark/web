@@ -121,7 +121,7 @@ body {
 
 .login hr {
   width: 12%;
-  margin: -2px auto 25px auto;
+  margin: 20px auto 25px auto;
   height: 5px;
   color: var(--bs-purple);
   opacity: 1;
