@@ -6,7 +6,7 @@ html {
 
 body {
   min-height: 100vh;
-  background: url("../../assets/img/bg.png") center no-repeat;
+  background: url("../../assets/img/bg.jpg") center no-repeat;
   background-size: cover;
 }
 
@@ -201,12 +201,12 @@ a.btn-playnow {
   display: block;
   width: 100%;
   background-color: #ffa500;
-  color: #ffffff;
+  color: #ffffff !important;
   text-decoration: none;
   padding: 5px 10px 8px 5px;
   border-radius: 10px;
   font-size: 18px;
-  margin: 10px 0 -15px 0;
+  margin: 16px 0 -10px 0;
   text-align: center;
 }
 
@@ -252,5 +252,55 @@ a.btn-playnow {
 
 p {
   margin: 0;
+}
+
+.user p {
+  font-size: 16px;
+}
+
+.description p {
+  color: #000000;
+  font-size: 14px;
+  font-weight: 400;
+  text-align: left;
+  background: #ffffff;
+  padding: 15px;
+  border-radius: 14px;
+  margin-top: 14px;
+}
+
+.prize img {
+  max-height: 110px;
+}
+
+.remind {
+  margin: 15px;
+}
+
+.congrat {
+  background: rgba(0,0,0,0.41);
+  border-radius: 20px;
+  padding: 50px 20px;
+  position: relative;
+}
+
+#popup {
+  background: rgba(0,0,0,0.9);
+  position: absolute;
+  z-index: 1;
+  top: 70px;
+  max-width: 485px;
+  width: 96%;
+  display: block;
+  padding: 30px 10px;
+  min-height: 80vh;
+}
+
+#popup a {
+  margin-top: 18px;
+}
+
+#close img {
+  width: 50px;
 }
 
