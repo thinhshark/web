@@ -10,7 +10,18 @@
 	<meta name="description" content="">
     <meta name="keywords" content="">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+
     <link rel="stylesheet" type="text/css" href="css/style.css">
+
+<!-- hien thi video -->
+    <script type="text/javascript">
+      $(window).on('load', function() {
+          $('#myModal').modal('show');
+      });
+    </script>
+
 </head>
 
 <body>
@@ -27,6 +38,20 @@
   <div class="banner">
       <img src="images/banner.png">
   </div>
+
+
+<!-- popup hien thi video -->
+<div class="modal hide fade" id="myModal" style="margin-top: 80px;">
+    
+    <div class="modal-body">
+        <iframe src="https://www.youtube.com/embed/pz10V29cxQw" title="Loan Credit" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="width: 100%;"></iframe>
+    </div>
+    <div class="modal-footer" style="border-top: 0;">
+        <a href="#" class="btn">Close</a>
+    </div>
+</div>
+
+
 
   <div class="content">
     <div class="guide">
