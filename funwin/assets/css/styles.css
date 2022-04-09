@@ -159,7 +159,7 @@ body {
   background: url("../../assets/img/bg.png") center / cover, #808080;
 }
 
-.footer .col-3 {
+.footer .col {
   padding: 18px;
   text-align: center;
 }
