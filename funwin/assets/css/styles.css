@@ -8,6 +8,7 @@ body {
   min-height: 100vh;
   background: url("../../assets/img/bg.jpg") center no-repeat;
   background-size: cover;
+  font-family: 'Kreon', serif;
 }
 
 .logo {
@@ -103,6 +104,7 @@ body {
 
 .answers {
   margin-top: 20px;
+  font-family: 'Short Stack', cursive;
 }
 
 .login {
@@ -160,12 +162,12 @@ body {
 }
 
 .footer .col {
-  padding: 18px;
+  padding: 10px;
   text-align: center;
 }
 
 .footer img {
-  width: 70%;
+  width: 100%;
 }
 
 .img-thumb img {
@@ -303,5 +305,22 @@ p {
 
 #close img {
   width: 50px;
+}
+
+.question .col-2.col-md-2 img {
+  max-width: 140%;
+  margin-bottom: 25px;
+  margin-left: -10px;
+  margin-top: 40px;
+}
+
+.question .col-10.col-md-10 img {
+  height: 260px;
+  border: 8px solid rgb(159,61,53);
+}
+
+.question {
+  margin-bottom: 20px;
+  font-family: 'Short Stack', cursive;
 }
 
