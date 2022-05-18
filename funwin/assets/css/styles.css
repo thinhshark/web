@@ -161,6 +161,7 @@ body {
   position: fixed;
   bottom: 0;
   background: url("../../assets/img/bg.png") center / cover, #808080;
+  padding: 10px;
 }
 
 .footer .col {
@@ -169,12 +170,17 @@ body {
 }
 
 .footer img {
-  width: 100%;
+  width: 65%;
+}
+
+.monthly .img-thumb img {
+  max-width: 110px;
+  max-height: 150px;
 }
 
 .img-thumb img {
-  max-width: 100px;
-  max-height: 150px;
+  max-width: 70px;
+  max-height: 100px;
 }
 
 .type {
@@ -183,11 +189,10 @@ body {
 }
 
 .products .row {
-  background: #ffffff;
   border-radius: 10px;
-  padding: 15px 10px;
-  color: #000000;
-  margin-top: 5px;
+  padding: 35px 10px;
+  color: #ffffff;
+  margin-top: 15px;
 }
 
 .prize {
@@ -205,13 +210,11 @@ body {
 a.btn-playnow {
   display: block;
   width: 100%;
-  background-color: #ffa500;
   color: #ffffff !important;
   text-decoration: none;
   padding: 5px 10px 8px 5px;
   border-radius: 10px;
   font-size: 18px;
-  margin: 16px 0 -10px 0;
   text-align: center;
 }
 
@@ -328,5 +331,22 @@ p {
 .answers .row .col-md-6 img {
   width: 30px;
   margin-bottom: 3px;
+}
+
+.monthly {
+  background-color: #690315;
+}
+
+.monthly i {
+  font-size: 16px;
+}
+
+.weekly {
+  padding: 15px !important;
+  background: #0d2249;
+}
+
+.weekly i {
+  font-size: 14px;
 }
 
